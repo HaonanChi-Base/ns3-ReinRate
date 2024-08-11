@@ -1044,6 +1044,7 @@ MinstrelHtWifiManager::DoGetDataTxVector(WifiRemoteStation* st, uint16_t allowed
     else
     {
         station->m_txrate = UpdateRateAfterAllowedWidth(station->m_txrate, allowedWidth);
+        //std::cout<<"MCS:"<<station->m_txrate<<std::endl;
         NS_LOG_DEBUG("DoGetDataMode m_txrate= " << station->m_txrate);
 
         uint8_t rateId = GetRateId(station->m_txrate);

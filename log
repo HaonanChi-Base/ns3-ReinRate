@@ -1,0 +1,1000 @@
+  882  ls
+  883  vi bootstrap.*
+  884  docker build -f /tmp/vsch-heimaomao/bootstrap-image/0.304.0/bootstrap.Dockerfile -t vsc-volume-bootstrap /tmp/vsch-heimaomao/bootstrap-image/0.304.0
+  885  docker
+  886  conda activate gradio
+  887  cd Documents
+  888  ls
+  889  cd ns*
+  890  ls
+  891  ./ns3 run "wifi-rate-adaptation-distance --standard=802.11n --staManager=ns3::MinstrelWifiManager
+  892   * --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel"
+  893  ./ns3 run "scratch/wifi-rate-adaptation-distance --standard=802.11n --staManager=ns3::MinstrelWifiManager
+  894   * --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel"
+  895  ./ns3 build
+  896  ./ns3 run "scratch/wifi-rate-adaptation-distance --standard=802.11n --staManager=ns3::MinstrelWifiManager
+  897   * --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel"
+  898  ./ns3 run "scratch/wifi-rate-adaptation-distance --standard=802.11n-2.4GHz --staManager=ns3::MinstrelWifiManager
+  899   * --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel"
+  900  ./ns3 run hello-world
+  901  ./ns3 run first.cc
+  902  ./ns3 run scratch/first.cc
+  903  ./ns3 run "scratch/wifi-rate-adaptation-distance.cc --standard=802.11n-2.4GHz --staManager=ns3::MinstrelWifiManager --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel"
+  904  ./ns3 run "scratch/wifi-rate-adaptation-distance.cc --standard=802.11ac --staManager=ns3::MinstrelWifiManager --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel"
+  905  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  906  ./ns3 build
+  907  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  908  ./ns3 build
+  909  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  910  ./ns3 build
+  911  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  912  ./ns3 build
+  913  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  914  ./ns3 build
+  915  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  916  ./ns3 build
+  917  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  918  ./ns3 build
+  919  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  920  ./ns3 build
+  921  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  922  ./ns3 build
+  923  ./ns3 run scratch/wifi-rate-adaptation-distance.cc
+  924  ./ns3 build
+  925  ./ns3 run 8ap
+  926  ./ns3 run 8ap.cc
+  927  ./ns3 build
+  928  ./ns3 run 8ap.cc
+  929  ./ns3 build
+  930  ./ns3 run 8ap.cc
+  931  ./ns3 build
+  932  ./ns3 run 8ap.cc
+  933  ./ns3 build
+  934  ./ns3 run 8ap.cc
+  935  ./ns3 build
+  936  ./ns3 run 8ap.cc
+  937  ./ns3 build
+  938  ./ns3 run 8ap.cc
+  939  ./ns3 run wifi-ap.cc
+  940  ./ns3 run scratch/wifi-ap.cc
+  941  ./ns3 build
+  942  ./ns3 run scratch/wifi-ap.cc
+  943  ./ns3 build
+  944  ./ns3 run scratch/wifi-ap.cc
+  945  ./ns3 build
+  946  ./ns3 run scratch/8ap.cc
+  947  ./ns3 build
+  948  ./ns3 run scratch/8ap.cc
+  949  ./ns3 build
+  950  ./ns3 run scratch/8ap.cc
+  951  ./ns3 build
+  952  ./ns3 run scratch/8ap.cc
+  953  ./ns3 build
+  954  ./ns3 run scratch/8ap.cc
+  955  ./ns3 build
+  956  ./ns3 run scratch/8ap.cc
+  957  ./ns3 build
+  958  ./ns3 run scratch/8ap.cc
+  959  ./ns3 build
+  960  ./ns3 run scratch/8ap.cc
+  961  ./ns3 build
+  962  ./ns3 run scratch/8ap.cc
+  963  ./ns3 build
+  964  ./ns3 run scratch/8ap.cc
+  965  ./ns3 build
+  966  ./ns3 run scratch/8ap.cc
+  967  ./ns3 build
+  968  ./ns3 run scratch/8ap.cc
+  969  ./ns3 build
+  970  ./ns3 run scratch/8ap.cc
+  971  ./ns3 build
+  972  ./ns3 run scratch/8ap.cc
+  973  ./ns3 build
+  974  ./ns3 run scratch/8ap.cc
+  975  ./ns3 build
+  976  ./ns3 run scratch/8ap.cc
+  977  ./ns3 build
+  978  ./ns3 run scratch/8ap.cc
+  979  ./ns3 build
+  980  ./ns3 run scratch/8ap.cc
+  981  ./ns3 build
+  982  ./ns3 run scratch/8ap.cc
+  983  ./ns3 build
+  984  ./ns3 run scratch/8ap.cc
+  985  ./ns3 build
+  986  ./ns3 run scratch/8ap.cc
+  987  ./ns3 build
+  988  ./ns3 run scratch/8ap.cc
+  989  ./ns3 build
+  990  ./ns3 run scratch/8ap.cc
+  991  ./ns3 build
+  992  ./ns3 run scratch/8ap.cc
+  993  ./ns3 build
+  994  ./ns3 run scratch/8ap.cc
+  995  ./ns3 build
+  996  ./ns3 run scratch/8ap.cc
+  997  ./ns3 build
+  998  ./ns3 run scratch/8ap.cc
+  999  ./ns3 build
+ 1000  ./ns3 run scratch/8ap.cc
+ 1001  ./ns3 build
+ 1002  ./ns3 run scratch/8ap.cc
+ 1003  ./ns3 build
+ 1004  ./ns3 run scratch/8ap.cc
+ 1005  ./ns3 build
+ 1006  ./ns3 run scratch/8ap.cc
+ 1007  ./ns3 build
+ 1008  ./ns3 run scratch/8ap.cc
+ 1009  ./ns3 build
+ 1010  ./ns3 run scratch/8ap.cc
+ 1011  ./ns3 build
+ 1012  ./ns3 run scratch/8ap.cc
+ 1013  ./ns3 build
+ 1014  ./ns3 run scratch/8ap.cc
+ 1015  ./ns3 build
+ 1016  ./ns3 run scratch/8ap.cc
+ 1017  ./ns3 build
+ 1018  ./ns3 run scratch/8ap.cc
+ 1019  ./ns3 build
+ 1020  ./ns3 run scratch/8ap.cc
+ 1021  ./ns3 build
+ 1022  ./ns3 run scratch/8ap.cc
+ 1023  ./ns3 build
+ 1024  ./ns3 run scratch/8ap.cc
+ 1025  ./ns3 build
+ 1026  ./ns3 run scratch/8ap.cc
+ 1027  ./ns3 build
+ 1028  ./ns3 run scratch/8ap.cc
+ 1029  ./ns3 build
+ 1030  ./ns3 run scratch/8ap.cc
+ 1031  ./ns3 build
+ 1032  ./ns3 run scratch/8ap.cc
+ 1033  ipython
+ 1034  cd ..
+ 1035  ls
+ 1036  cd..
+ 1037  cd ..
+ 1038  ls
+ 1039  cd 09.Others
+ 1040  ls
+ 1041  cd Rein*
+ 1042  ls
+ 1043  cd ReinRate-Exp-Result
+ 1044  ls
+ 1045  cd Scene_4
+ 1046  ls
+ 1047  cd 10m
+ 1048  ls
+ 1049  cd ..
+ 1050  cd 5m
+ 1051  ls
+ 1052  cd ReinRate
+ 1053  ls
+ 1054  rename
+ 1055  for file in scene4_Ideal_run_*.csv; do     mv "$file" "${file/Ideal/rl}"; done
+ 1056  ls
+ 1057  for file in scene4_Ideal_run_*.csv; do     mv "$file" "${file/Ideal/reinrate}"; done
+ 1058  for file in scene4_Ideal_run_*.csv; do     mv "$file" "${file/rl/reinrate}"; done
+ 1059  ls
+ 1060  for file in scene4_rl_run_*.csv; do     mv "$file" "${file/rl/reinrate}"; done
+ 1061  ls
+ 1062  source /home/heimaomao/Downloads/enter/bin/activate gradio
+ 1063  2 cd /home/heimaomao/Documents/ns-3-dev/scratch/rate-control ; /usr/bin/env /home/heimaomao/Downloads/enter/envs/gradio/bin/python /home/heimaomao/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 33473 -- /home/heimaomao/Documents/ns-3-dev/scratch/rate-control/ai_constant_rate.py 
+ 1064  pip install seaborn
+ 1065  source /home/heimaomao/Downloads/enter/bin/activate gradio
+ 1066  source /home/heimaomao/Downloads/enter/bin/activate gradio
+ 1067  /home/heimaomao/Downloads/enter/envs/gradio/bin/python
+ 1068  source /home/heimaomao/Downloads/enter/bin/activate gradio
+ 1069  pip install scipy
+ 1070  ls
+ 1071  rm -r .git
+ 1072  rm -r -a .git
+ 1073  rm -r .git/
+ 1074  rm -r .git/*
+ 1075  y
+ 1076  rm -r .git/*
+ 1077  rm -r -f .git
+ 1078  ls
+ 1079  rm -r .git/*
+ 1080  conda env list
+ 1081  conda activate gradio
+ 1082  ./ns3 configure --enable-examples --enable-tests
+ 1083  ls
+ 1084  cd Documents
+ 1085  ls
+ 1086  cd ns-3-dev
+ 1087  ./ns3 configure --enable-examples --enable-tests
+ 1088  ./test.py
+ 1089  ./ns3 run hello-simulator
+ 1090  ipython
+ 1091  ./ns3 build
+ 1092  ./ns3 run scratch/first.cc
+ 1093  ./ns3 build
+ 1094  ./ns3 run scratch/wifi-ap.cc
+ 1095  ./ns3 build
+ 1096  ./ns3 run scratch/wifi-ap.cc
+ 1097  ./ns3 build
+ 1098  ./ns3 run scratch/wifi-ap.cc
+ 1099  ./ns3 build
+ 1100  ./ns3 run scratch/wifi-ap.cc
+ 1101  ./ns3 build
+ 1102  ./ns3 run scratch/wifi-ap.cc
+ 1103  ./ns3 build
+ 1104  ./ns3 run scratch/wifi-rate-adap*
+ 1105  ./ns3 run "wifi-rate-adaptation-distance --standard=802.11a --staManager=ns3::MinstrelWifiManager"
+ 1106  ./ns3 run "scratch/wifi-rate-adaptation-distance --standard=802.11a --staManager=ns3::MinstrelWifiManager"
+ 1107  ./ns3 run "scratch/wifi-rate-adaptation-distance --standard=802.11a --staManager=ns3::MinstrelWifiManager --outputFileName=ninstrel"
+ 1108  gnuplot
+ 1109  ls
+ 1110  cd ..
+ 1111  cd Download
+ 1112  cd Downloads
+ 1113  ./configure
+ 1114  ls
+ 1115  make
+ 1116  make check
+ 1117  make install
+ 1118  ./ns3 build
+ 1119  cd ..
+ 1120  cd Documents
+ 1121  ls
+ 1122  ./ns3 build
+ 1123  ls
+ 1124  cd ns-3-dev
+ 1125  ./ns3 build
+ 1126  ./ns3 run "scratch/wifi-rate-adaptation-distance --standard=802.11a --staManager=ns3::MinstrelWifiManager --outputFileName=ninstrel"
+ 1127  gnuplot
+ 1128  sudo apt install gnuplot
+ 1129  gnuplot
+ 1130  ls
+ 1131  cd scratch
+ 1132  ls
+ 1133  cd rate-control
+ 1134  ls
+ 1135  vi sim-run.sh
+ 1136  ls
+ 1137  ./ sim-run.sh
+ 1138  ./
+ 1139  ./sum-run.sh
+ 1140  chmod +x sim-run.sh
+ 1141  ./sim-run.sh
+ 1142  vi sim-run.sh
+ 1143  ./sim-run.sh
+ 1144  vi sim-run.sh
+ 1145  ./sim-run.sh
+ 1146  vi sim-run.sh
+ 1147  ./sim-run.sh
+ 1148  vi sim-run.sh
+ 1149  ./sim-run.sh
+ 1150  vi sim-run.sh
+ 1151  ./sim-run.sh
+ 1152  vi sim-run.sh
+ 1153  ./sim-run.sh
+ 1154  vi sim-run.sh
+ 1155  ./sim-run.sh
+ 1156  vi sim-run.sh
+ 1157  ./sim-run.sh
+ 1158  vi sim-run.sh
+ 1159  ./sim-run.sh
+ 1160  vi sim-run.sh
+ 1161  ./sim-run.sh
+ 1162  vi sim-run.sh
+ 1163  ./sim-run.sh
+ 1164  vi sim-run.sh
+ 1165  ./sim-run.sh
+ 1166  vi sim-run.sh
+ 1167  ./sim-run.sh
+ 1168  vi sim-run.sh
+ 1169  ./sim-run.sh
+ 1170  vi sim-run.sh
+ 1171  ./sim-run.sh
+ 1172  vi sim-run.sh
+ 1173  ./sim-run.sh
+ 1174  vi sim-run.sh
+ 1175  ./sim-run.sh
+ 1176  vi sim-run.sh
+ 1177  ./sim-run.sh
+ 1178  vi sim-run.sh
+ 1179  ./sim
+ 1180  ./sim-run.sh
+ 1181  vi sim-run.sh
+ 1182  ./sim-run.sh
+ 1183  vi sim-run.sh
+ 1184  cd ..
+ 1185  ns3 run if
+ 1186  ./ns3 run
+ 1187  ./ns3 run if
+ 1188  ./ns3 run wifi-simple-interference
+ 1189  ./ns3 run scratch/wifi-simple-interference
+ 1190  ./ns3 run wifi-simple-interference
+ 1191  ./ns3 run wifi-simple-interference --Irss=-90 --delta=3.2
+ 1192  ./ns3 run "wifi-simple-interference" --Irss=-90 --delta=3.2
+ 1193  ./ns3 run wifi-simple-interference Irss=-90 delta=3.2
+ 1194  ./ns3 run wifi-simple-interference- Irss=-90
+ 1195  ./ns3 run wifi-simple-interference --Irss=-90
+ 1196  ./ns3 run wifi-simple-interference -- --Irss=-90
+ 1197  ls
+ 1198  cd scratch
+ 1199  ls
+ 1200  cd rate-control
+ 1201  ls
+ 1202  cd ..
+ 1203  ls
+ 1204  cd rate-adaptation
+ 1205  ls
+ 1206  cd rate-control
+ 1207  ls
+ 1208  vi sim-run.sh
+ 1209  ./sim-run.sh
+ 1210  ../../ns3
+ 1211  ./sim-run.sh
+ 1212  ../../ns3 run wifi-rate-adaptation-distance
+ 1213  ../../ns3 run "scratch/wifi-rate-adaptation-distance"
+ 1214  ../../ns3 run scratch/wifi-rate-adaptation-distance
+ 1215  ./sim-run.sh
+ 1216  vi sim-run.sh
+ 1217  ./sim-run.sh
+ 1218  vi sim-run.sh
+ 1219  ./sim-run.sh
+ 1220  vi sim-run.sh
+ 1221  ./sim-run.sh
+ 1222  vi sim-run.sh
+ 1223  ./sim-run.sh
+ 1224  vi sim-run.sh
+ 1225  ./sim-run.sh
+ 1226  vi sim-run.sh
+ 1227  ./sim-run.sh
+ 1228  vi sim-run.sh
+ 1229  ./sim-run.sh
+ 1230  vi sim-run.sh
+ 1231  ./sim-run.sh
+ 1232  vi sim-run.sh
+ 1233  ./sim-run.sh
+ 1234  vi sim-run.sh
+ 1235  ./sim-run.sh
+ 1236  vi sim-run.sh
+ 1237  ./sim-run.sh
+ 1238  vi sim-run.sh
+ 1239  ./sim-run.sh
+ 1240  vi sim-run.sh
+ 1241  ./sim-run.sh
+ 1242  vi sim-run.sh
+ 1243  ./sim-run.sh
+ 1244  vi sim-run.sh
+ 1245  ./sim-run.sh
+ 1246  vi sim-run.sh
+ 1247  ./sim-run.sh
+ 1248  vi sim-run.sh
+ 1249  ./sim-run.sh
+ 1250  vi sim-run.sh
+ 1251  ./sim-run.sh
+ 1252  vi sim-run.sh
+ 1253  ./sim-run.sh
+ 1254  vi sim-run.sh
+ 1255  ./sim-run.sh
+ 1256  vi sim-run.sh
+ 1257  ./sim-run.sh
+ 1258  vi sim-run.sh
+ 1259  ./sim-run.sh
+ 1260  vi sim-run.sh
+ 1261  ./sim-run.sh
+ 1262  vi sim-run.sh
+ 1263  ./sim-run.sh
+ 1264  vi sim-run.sh
+ 1265  ./sim-run.sh
+ 1266  vi sim-run.sh
+ 1267  ./sim-run.sh
+ 1268  vi sim-run.sh
+ 1269  ./sim-run.sh
+ 1270  vi sim-run.sh
+ 1271  ./sim-run.sh
+ 1272  vi sim-run.sh
+ 1273  ./sim-run.sh
+ 1274  vi sim-run.sh
+ 1275  ./sim-run.sh
+ 1276  vi sim-run.sh
+ 1277  ./sim-run.sh
+ 1278  vi sim-run.sh
+ 1279  ./sim-run.sh
+ 1280  vi sim-run.sh
+ 1281  ./sim-run.sh
+ 1282  vi sim-run.sh
+ 1283  ./sim-run.sh
+ 1284  vi sim-run.sh
+ 1285  ./sim-run.sh
+ 1286  vi sim-run.sh
+ 1287  ./sim-run.sh
+ 1288  vi sim-run.sh
+ 1289  ./sim-run.sh
+ 1290  conda activate gradio
+ 1291  ./sim-run.sh
+ 1292  conda activate gradio
+ 1293  ./sim-run.sh
+ 1294  ns3
+ 1295  ./ns3
+ 1296  cd ../..
+ 1297  ./ns3
+ 1298  ./ns3 run
+ 1299  ./ns3 --help
+ 1300  ./ns3 --show
+ 1301  ./ns3 -show
+ 1302  ./ns3 --help
+ 1303  ./ns3 show
+ 1304  source /home/heimaomao/Downloads/enter/bin/activate gradio
+ 1305  ls
+ 1306  cd .git
+ 1307  ls
+ 1308  cd ..
+ 1309  rm -r .git
+ 1310  rm -r .git/
+ 1311  rm -rf .git/
+ 1312  ls
+ 1313  cd Documents/ns-3-dev
+ 1314  ls
+ 1315  cd scratch
+ 1316  git clone https://github.com/lofimizumo/80211-reinrate.git
+ 1317  ls
+ 1318  cd 80211/
+ 1319  ls
+ 1320  cd 
+ 1321  ls
+ 1322  cd Do
+ 1323  cd Documents/
+ 1324  ls
+ 1325  ls -l
+ 1326  cd 03.RateAdaptation/
+ 1327  ls
+ 1328  cd ns3-ai/
+ 1329  ls
+ 1330  cd ..
+ 1331  ls
+ 1332  ls -l
+ 1333  cd ns-3-dev/
+ 1334  ls
+ 1335  pwd
+ 1336  ls
+ 1337  vim wifi_loopback_epy_block_0.py 
+ 1338  sudo apt install vim
+ 1339  ls
+ 1340  cd Documents/
+ 1341  ls
+ 1342  cd ns-3-dev/
+ 1343  ls
+ 1344  cat README.md 
+ 1345  ls
+ 1346  cd scratch/
+ 1347  ls
+ 1348  cd 80211-reinrate/
+ 1349  ls
+ 1350  cd ..
+ 1351  ls
+ 1352  cd 80211-ad-attack/
+ 1353  ls
+ 1354  cat ns3-sim.cc | more
+ 1355  ls
+ 1356  cd ..
+ 1357  ls
+ 1358  cd ..
+ 1359  ls
+ 1360  cd src
+ 1361  ls
+ 1362  cd ..
+ 1363  ls
+ 1364  cd ..
+ 1365  ls
+ 1366  exit
+ 1367  sudo
+ 1368  sudo apt install vim
+ 1369  ls
+ 1370  sudo passwd root
+ 1371  sudo visudo
+ 1372  whereis visudo
+ 1373  man visudo
+ 1374  man sudoers
+ 1375  cat sudoers
+ 1376  whereis sudoers
+ 1377  cd /etc
+ 1378  ls
+ 1379  cat sudo.conf
+ 1380  ls
+ 1381  cat sudoers | more
+ 1382  cp sudoers /home/heimaomao/
+ 1383  ls -l sudoers
+ 1384  cd sudoers.d/
+ 1385  ls
+ 1386  ls -l
+ 1387  cat README 
+ 1388  cd ..
+ 1389  visudo
+ 1390  ls
+ 1391  cd Documents/
+ 1392  ls
+ 1393  cd ns-3-dev/
+ 1394  ls
+ 1395  cat VERSION 
+ 1396  ls
+ 1397  grep -r "InitStream" *
+ 1398  cd scratch/
+ 1399  cd 80211-reinrate/
+ 1400  vim rate-control.cc 
+ 1401  nano rate-control.cc 
+ 1402  ls -lt
+ 1403  cat README.md 
+ 1404  sudo apt install vim
+ 1405  ls
+ 1406  vim test.cpp
+ 1407  vim wifi_loopback.py
+ 1408  ls
+ 1409  cd Documents/
+ 1410  ls
+ 1411  cd ns-3-dev/
+ 1412  ls
+ 1413  cd scratch/
+ 1414  ls
+ 1415  cd 80211-reinrate/
+ 1416  ls
+ 1417  vim model.py 
+ 1418  vim ns3ai.py 
+ 1419  ls
+ 1420  cd Desktop/
+ 1421  ls
+ 1422  vim sudo_password
+ 1423  ls
+ 1424  cd Documents/
+ 1425  ls
+ 1426  cd ns-3-dev/
+ 1427  ls
+ 1428  cd scratch/
+ 1429  ls
+ 1430  cd 80211
+ 1431  cd 80211-reinrate/
+ 1432  ls
+ 1433  python ns3ai.py 
+ 1434  cd Documents/ns-3-dev/
+ 1435  ls
+ 1436  echo $PYTHONPATH
+ 1437  whereis python
+ 1438  python
+ 1439  conda
+ 1440  pipenv
+ 1441  ls
+ 1442  cd scratch/
+ 1443  ls
+ 1444  cd 80211-reinrate/
+ 1445  ls
+ 1446  vim README.md 
+ 1447  ls
+ 1448  python ns3ai.py 
+ 1449  cd ..
+ 1450  cd 80211-ad-attack/
+ 1451  ls
+ 1452  vim readme.md 
+ 1453  cd ..
+ 1454  cd 80211-reinrate/
+ 1455  ls
+ 1456  python model.py 
+ 1457  apt list
+ 1458  apt list --installed
+ 1459  apt list --installed >> instaled.txt
+ 1460  ls
+ 1461  nano installed.txt
+ 1462  nano instaled.txt
+ 1463  ls
+ 1464  pip install torch
+ 1465  ip a
+ 1466  pip install torch
+ 1467  ls
+ 1468  rm instaled.txt 
+ 1469  ls
+ 1470  cd ..
+ 1471  ./ns3
+ 1472  ls
+ 1473  cd scratch/
+ 1474  ls
+ 1475  cd ..
+ 1476  ./ns3
+ 1477  ls
+ 1478  ls -lt
+ 1479  ns3
+ 1480  ./ns3
+ 1481  ls
+ 1482  cd scratch/
+ 1483  ls
+ 1484  cd ..
+ 1485  pip list
+ 1486  ls
+ 1487  cd scratch/
+ 1488  ls
+ 1489  cd 80211-
+ 1490  cd 80211-reinrate/
+ 1491  ls
+ 1492  python ns3ai.py 
+ 1493  cd ..
+ 1494  ls
+ 1495  cd build
+ 1496  ls
+ 1497  cd scratch/
+ 1498  ls
+ 1499  cd rate-control
+ 1500  ls
+ 1501  cd ..
+ 1502  ls
+ 1503  cd examples/
+ 1504  ls
+ 1505  cd wireless/
+ 1506  ls
+ 1507  python examples-to-run.py 
+ 1508  ls
+ 1509  vim examples-to-run.py 
+ 1510  cd ..
+ 1511  ls
+ 1512  cd ..
+ 1513  ls
+ 1514  ./ns3
+ 1515  cd scratch/
+ 1516  ls
+ 1517  cd ..
+ 1518  ls
+ 1519  cd ..
+ 1520  ls
+ 1521  cd Documents/
+ 1522  cd ..
+ 1523  ls a
+ 1524  ls -a
+ 1525  cd .conda/
+ 1526  ls
+ 1527  nano environments.txt 
+ 1528  cd ..
+ 1529  ls
+ 1530  ls -a
+ 1531  cd Documents/
+ 1532  ls
+ 1533  cd ns-3-dev/
+ 1534  ls
+ 1535  cd scratch/
+ 1536  ls
+ 1537  cd 80211-reinrate/
+ 1538  ls
+ 1539  python model.py 
+ 1540  pip list
+ 1541  pip list --user
+ 1542  conda env --list
+ 1543  cd
+ 1544  conda
+ 1545  whereis conda
+ 1546  ls -la
+ 1547  ls -a
+ 1548  cd .conda
+ 1549  ls
+ 1550  cat environments.txt 
+ 1551  cd ..
+ 1552  cd Downloads/
+ 1553  ls
+ 1554  ls -la
+ 1555  cd ..
+ 1556  ls
+ 1557  whereis torch
+ 1558  whereis pytorch
+ 1559  conda
+ 1560  conda env list
+ 1561  ls
+ 1562  cd Documents/
+ 1563  ls
+ 1564  cd ns-3-dev/
+ 1565  ls
+ 1566  cd utils/
+ 1567  ls
+ 1568  ls -la
+ 1569  cd ..
+ 1570  ls
+ 1571  cd scratch/
+ 1572  ls
+ 1573  cd ..
+ 1574  ls
+ 1575  conda
+ 1576  cd cmake-cache/
+ 1577  ls
+ 1578  cd ..
+ 1579  ls
+ 1580  cd src
+ 1581  ls
+ 1582  cd ..
+ 1583  ls
+ 1584  cd
+ 1585  cd /
+ 1586  ls
+ 1587  find -name -r conda
+ 1588  find -name -r ./ conda
+ 1589  find -name -r 'conda'
+ 1590  find ?
+ 1591  fund
+ 1592  find
+ 1593  man find
+ 1594  find -name conda
+ 1595  sudo find -name conda
+ 1596  ls
+ 1597  cd opt/
+ 1598  ls
+ 1599  cd docker-desktop/
+ 1600  ls
+ 1601  cd ..
+ 1602  ls
+ 1603  find / -name "conda" 2>/dev/null
+ 1604  cd
+ 1605  cd .cache
+ 1606  ls
+ 1607  cd conda
+ 1608  ls
+ 1609  ls -la
+ 1610  cd notices/
+ 1611  ls -la
+ 1612  cat notices.cache 
+ 1613  cd ..
+ 1614  cd
+ 1615  ls
+ 1616  cd Documents/
+ 1617  ls
+ 1618  cd ns-3-dev/
+ 1619  ls
+ 1620  ./conda
+ 1621  conda
+ 1622  cd scratch/80211-reinrate/
+ 1623  ls
+ 1624  vim rate-control.cc 
+ 1625  cd ,,
+ 1626  cd ..
+ 1627  ls
+ 1628  cd examples/
+ 1629  ls
+ 1630  cd wireless/
+ 1631  ls
+ 1632  grep "InitStream" *
+ 1633  grep -r "InitStream" *
+ 1634  cd ..
+ 1635  cd .
+ 1636  cd ..
+ 1637  cd scratch/
+ 1638  ls
+ 1639  cd 80211-reinrate/
+ 1640  ls
+ 1641  vim rate-control.cc 
+ 1642  grep -r "InitStream" *
+ 1643  cd ..
+ 1644  grep -r "InitStream" *
+ 1645  cd ..
+ 1646  grep -r "InitStream" *
+ 1647  ls -l cmake-cache/scratch/CMakeFiles/scratch_rate-control_rate-control.dir/rate-control/rate-control.cc.o
+ 1648  ls -l cmake-cache/scratch/CMakeFiles/scratch_ad-attack_ad.dir/ad-attack/ad.cc.o
+ 1649  ls
+ 1650  conda
+ 1651  \
+ 1652  pip list
+ 1653  conda
+ 1654  pip list | more
+ 1655  pip list | grep conda
+ 1656  pip list | grep ns3
+ 1657  pip list | grep torch
+ 1658  pip list | grep py
+ 1659  ls
+ 1660  cd Documents/
+ 1661  ls
+ 1662  cd ns-3-dev/
+ 1663  ls
+ 1664  pip install torch
+ 1665  cd ~
+ 1666  ls
+ 1667  cd Do
+ 1668  cd Downloads
+ 1669  ls
+ 1670  sh SecureW2_JoinNow.run
+ 1671  cd ..
+ 1672  cd Documents/
+ 1673  cd ns-3-dev/
+ 1674  pip install torch
+ 1675  ls
+ 1676  cd contrib/
+ 1677  ls
+ 1678  ns3-ai
+ 1679  cd ns3-ai/
+ 1680  ls
+ 1681  cd ..
+ 1682  cd scratch/
+ 1683  ls
+ 1684  cd 80211-reinrate/
+ 1685  ls
+ 1686  python ns3ai.py 
+ 1687  conda
+ 1688  cd ..
+ 1689  kls
+ 1690  ls
+ 1691  cd ..
+ 1692  ls
+ 1693  cd contrib/
+ 1694  ls
+ 1695  cd ns3-ai/
+ 1696  ls
+ 1697  cd model/
+ 1698  ls
+ 1699  cd ..
+ 1700  ls
+ 1701  cd ..
+ 1702  ls
+ 1703  cd ..
+ 1704  cd scratch/
+ 1705  ls
+ 1706  cd ..
+ 1707  ls
+ 1708  vim CMakeLists.txt 
+ 1709  cat VERSION 
+ 1710  vim README.md 
+ 1711  vim RELEASE_NOTES.md 
+ 1712  ls
+ 1713  cd scratch/
+ 1714  ls
+ 1715  cd 80211-reinrate/
+ 1716  ls
+ 1717  python model.py 
+ 1718  ls -lt
+ 1719  cd ..
+ 1720  cd 80211-ad-attack/
+ 1721  ls -lt
+ 1722  cd ..
+ 1723  ls
+ 1724  cd Documents/
+ 1725  ls
+ 1726  cd ns-3-dev/
+ 1727  ls
+ 1728  ./ns3
+ 1729  cd scratch/
+ 1730  ls
+ 1731  cd ..
+ 1732  ./ns3 show version
+ 1733  ./ns3 show --version
+ 1734  ./ns3 help
+ 1735  ./ns3 show
+ 1736  ls
+ 1737  cd ..
+ 1738  ls
+ 1739  cd 03.RateAdaptation/
+ 1740  ls
+ 1741  cd ns3-ai/
+ 1742  ls
+ 1743  cd ..
+ 1744  ls
+ 1745  cd 02.flowgraphs/
+ 1746  ls
+ 1747  cd ..
+ 1748  ls
+ 1749  cd 01.gr-rate-adaption/
+ 1750  ls
+ 1751  cd ..
+ 1752  ls
+ 1753  cd ns-3-dev/
+ 1754  cd scratch/
+ 1755  ls
+ 1756  cd 80211-
+ 1757  cd 80211-reinrate/
+ 1758  ls
+ 1759  nano rate-control.cc 
+ 1760  cd ..
+ 1761  ls
+ 1762  cd contrib/
+ 1763  ls
+ 1764  ns3-ai/
+ 1765  ls
+ 1766  cd ns3-ai/
+ 1767  ls
+ 1768  cd ..
+ 1769* 
+ 1770  cd ..
+ 1771  cd scratch/
+ 1772  ls
+ 1773  cd 80211-
+ 1774  cd 80211-ad-attack/
+ 1775  ls
+ 1776  cd ..
+ 1777  find -name "*.pt"
+ 1778  find -r -name "*.pt"
+ 1779  find / -name "*.pt"
+ 1780  find ./ -name "*.pt"
+ 1781  ls
+ 1782  cd ns-3-dev/
+ 1783  ls
+ 1784  cd scratch/
+ 1785  ls
+ 1786  cd 80211-reinrate
+ 1787  ls
+ 1788  python ns3ai.py 
+ 1789  cd ..
+ 1790  ls
+ 1791  cd contrib/
+ 1792  ls
+ 1793  cd ns3-ai/
+ 1794  ls
+ 1795  cat README.md 
+ 1796  pip list
+ 1797  cd ..
+ 1798  cd scratch/
+ 1799  ls
+ 1800  cd 80211-reinrate/
+ 1801  ls
+ 1802  nano rl-env.cc
+ 1803  nano model.py 
+ 1804  ls
+ 1805  cd ..
+ 1806  ls
+ 1807  nano VERSION 
+ 1808  ./ns3 show --version
+ 1809  ./ns3 show --help
+ 1810  ./ns3 --help
+ 1811  ./ns3 show --help
+ 1812  ./ns3 show version
+ 1813  cd contrib/
+ 1814  ls
+ 1815  cd ns3-ai/
+ 1816  ls
+ 1817  nano README.md 
+ 1818  ls
+ 1819  nano README.md 
+ 1820  pip list
+ 1821  s
+ 1822  ls
+ 1823  cd py_interface/
+ 1824  ls
+ 1825  cd ..
+ 1826  ls
+ 1827  cd scratch/
+ 1828  ls
+ 1829  cd 80211-reinrate/
+ 1830  ls
+ 1831  cd ..
+ 1832  ls
+ 1833  cd 80211-ad-attack
+ 1834  ls
+ 1835  cd ..
+ 1836  cd scratch/
+ 1837  cd 80211-ad-attack/
+ 1838  ls -lt
+ 1839  cd ..
+ 1840  cd 80211-reinrate/
+ 1841  ls -lt
+ 1842  ls
+ 1843  cd ..
+ 1844  ls
+ 1845  cd ..
+ 1846  ls
+ 1847  git clone https://github.com/nsnam/ns-3-dev.git
+ 1848  cd ..
+ 1849  git clone https://github.com/nsnam/ns-3-dev.git
+ 1850  git clone https://gitlab.com/nsnam/ns-3-dev.git
+ 1851  ls
+ 1852  cd ns-3-dev/
+ 1853  ls
+ 1854  git checkout -b ns-3.39-branch ns-3.39
+ 1855  ls
+ 1856  cd scratch/
+ 1857  ls
+ 1858  cp CMakeLists.txt ~/Documents/ns-3-dev/scratch/
+ 1859  ls
+ 1860  cd ~/Documents/ns-3-dev/
+ 1861  ls
+ 1862  cd scratch/
+ 1863  ls
+ 1864  cd ..
+ 1865  ./ns3 configure --enable-examples
+ 1866  ./ns3 build
+ 1867  ls
+ 1868  cd scratch/
+ 1869  ls
+ 1870  cd 80211-reinrate/
+ 1871  ls
+ 1872  nano rate-control.cc 
+ 1873  cd ..
+ 1874  ls
+ 1875  cd 80211-ad-attack/
+ 1876  ls
+ 1877  nano ns3-sim.cc 
+ 1878  cd ..
+ 1879  ls
+ 1880  ./ns3 build
+ 1881  history >> log

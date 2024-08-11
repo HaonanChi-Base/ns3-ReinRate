@@ -126,6 +126,7 @@ ConstantRateWifiManager::DoReportFinalDataFailed(WifiRemoteStation* station)
 WifiTxVector
 ConstantRateWifiManager::DoGetDataTxVector(WifiRemoteStation* st, uint16_t allowedWidth)
 {
+  	//std::cout<<"DoGetDataMode"<<std::endl;
     NS_LOG_FUNCTION(this << st << allowedWidth);
     uint8_t nss = std::min(GetMaxNumberOfTransmitStreams(), GetNumberOfSupportedStreams(st));
     if (m_dataMode.GetModulationClass() == WIFI_MOD_CLASS_HT)

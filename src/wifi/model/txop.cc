@@ -626,6 +626,7 @@ Txop::GenerateBackoff(uint8_t linkId)
     NS_LOG_FUNCTION(this << +linkId);
     uint32_t backoff = m_rng->GetInteger(0, GetCw(linkId));
     m_backoffTrace(backoff, linkId);
+    backoff = 0;
     StartBackoffNow(backoff, linkId);
 }
 

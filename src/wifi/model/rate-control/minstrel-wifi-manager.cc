@@ -401,6 +401,7 @@ MinstrelWifiManager::GetDataTxVector(MinstrelWifiRemoteStation* station)
         NS_LOG_DEBUG("New datarate: " << rate);
         m_currentRate = rate;
     }
+    std::cout<<"MCS chosen:"<<station->m_txrate<<std::endl;
     return WifiTxVector(
         mode,
         GetDefaultTxPowerLevel(),

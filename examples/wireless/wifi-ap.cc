@@ -34,7 +34,7 @@
 using namespace ns3;
 
 /// True for verbose output.
-static bool g_verbose = true;
+static bool g_verbose = false;
 
 /**
  * MAC-level TX trace.

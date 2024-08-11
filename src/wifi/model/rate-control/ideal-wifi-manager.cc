@@ -283,6 +283,7 @@ IdealWifiManager::DoReportDataOk(WifiRemoteStation* st,
                                  uint16_t dataChannelWidth,
                                  uint8_t dataNss)
 {
+	std::cout<<"DoReportDataOk"<<dataSnr<<std::endl;
     NS_LOG_FUNCTION(this << st << ackSnr << ackMode.GetUniqueName() << dataSnr << dataChannelWidth
                          << +dataNss);
     IdealWifiRemoteStation* station = static_cast<IdealWifiRemoteStation*>(st);
@@ -305,6 +306,7 @@ IdealWifiManager::DoReportAmpduTxStatus(WifiRemoteStation* st,
                                         uint16_t dataChannelWidth,
                                         uint8_t dataNss)
 {
+	//std::cout<<"DoAmpduTxStatus:"<<dataSnr<<std::endl;
     NS_LOG_FUNCTION(this << st << nSuccessfulMpdus << nFailedMpdus << rxSnr << dataSnr
                          << dataChannelWidth << +dataNss);
     IdealWifiRemoteStation* station = static_cast<IdealWifiRemoteStation*>(st);
@@ -579,6 +581,7 @@ IdealWifiManager::DoGetDataTxVector(WifiRemoteStation* st, uint16_t allowedWidth
         NS_LOG_DEBUG("New datarate: " << maxDataRate);
         m_currentRate = maxDataRate;
     }
+    //std::cout<<"MCS chosen:"<<maxMode<<std::endl;
     return bestTxVector;
 }
 
